@@ -1,0 +1,143 @@
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #25252E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-inner{
+    position: relative;
+    padding: 50px;
+    width: 100%;
+    max-width: 640px;
+    background-color: white;
+    color: black;
+
+}
+
+
+.popup-inner .close-btn{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+#close-popup{
+    width:25px;
+    border: 0;
+}
+
+#input-{
+    background-color: white;
+    color: black;
+    box-sizing: border-box;
+    border-bottom: 2px solid black !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    margin-left: 0%;
+    position: absolute;
+    top: 60%;
+    width: 200px;
+    text-align: center;
+}
+
+
+#input--{
+    background-color: white;
+    color: black;
+    box-sizing: border-box;
+    border-bottom: 2px solid black !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    margin-left: 50%;
+    position: absolute;
+    top: 60%;
+    width: 200px;
+    text-align: center;
+}
+
+
+#orcamentoh5{
+    position: relative;
+    top: -20px;
+}
+
+#popup-pacote-valor-txt{
+    margin-left: 70%;
+    position: relative;
+    top: -35px;
+    height: 70px;
+}
+
+.input-popup-valor{
+    margin-left: 50%;
+}
+
+.btn-popup-ok{
+    background-color: #1C7CD5;
+    border: none;
+    color: white;
+    padding: 0px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 68.5%;
+    border-radius: 5px;
+    position: absolute;
+    left: -29%;
+    top: 87%;
+    width: 120px;  
+    height: 40px;
+}
+
+#popup-gerar-fatura-vf{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+
+#popup-gerar-fatura-mp{
+    position: absolute;
+    top: 25%;
+    left: 55%;
+}
+
+#input-gerar-fatura-preco{
+    position: absolute;
+    left: 56%;
+    top: 60%;
+    background-color: white;
+    color: black;
+    box-sizing: border-box;
+    border-bottom: 2px solid black !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    width: 200px;
+    text-align: center;
+}
+
+#input-gerar-fatura-nome-mp{
+    position: absolute;
+    left: 2%;
+    top: 60%;
+    background-color: white;
+    color: black;
+    box-sizing: border-box;
+    border-bottom: 2px solid black !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    width: 200px;
+    text-align: center;
+}

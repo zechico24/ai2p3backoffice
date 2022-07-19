@@ -1,0 +1,53 @@
+.Utilizadores-graph{
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+.Visualizacoes-graph{
+    margin-left: 65.5%;
+    margin-top: -18%;
+
+}
+
+
+.Pedidos-graph{
+    margin-left: 60%;
+    margin-top: -19.2%;
+}
+
+
+.Sessoes-graph{
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+ @media (max-width: 500px){
+    .h2dashboard{
+        color: blue;
+    }
+} 
+
+#genero-graph-txt{
+    position: absolute;
+    margin-top: 34%;
+    margin-left: 71%;
+}
+
+#utilizadores-graph-txt{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 37%;
+}
+
+#pedidos-graph-txt{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 73%;
+}
+
+#sessoes-graph-txt{
+    position: absolute;
+    margin-top: 34%;
+    margin-left: 37.5%;
+}
+

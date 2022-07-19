@@ -1,0 +1,32 @@
+.foto-perfil-notificacoes-img{
+    width: 4%;
+    margin-left: 35%;
+    margin-top: 80px;
+}
+
+#cliente1-notificacoes-txt{
+    margin-left: 45%;
+    margin-top: -60px;
+    font-size: 20px;
+
+}
+
+#cliente1-notificacoes-nome-txt{
+    margin-left: 45%;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+#horas-notificacoes{
+    margin-left: 80%;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.horas-notificacoes{
+    margin-top: -31.70%;
+}
+
+.pagination{
+    margin-top: 80px;
+}

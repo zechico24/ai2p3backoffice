@@ -1,0 +1,54 @@
+body{
+    color: white;
+}
+
+
+
+#referencia-pedido-txt{
+    font-weight: bold;
+    text-align: center;
+    margin-top: -20px;
+}
+
+#faturacao-pedido-txt{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 65px;
+}
+
+#dados1-pedido{
+    margin-left: 35%;
+
+}
+
+#dados2-pedido{
+    margin-left: 60%;        
+    font-weight:100;
+}
+
+.dados1-pedidos2{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.dados2-pedidos2{
+    margin-top: -127px;
+    margin-left: -20px;
+}
+
+
+
+#btn-gerar-orcamento{
+    width: 9.5%;
+    margin-left: 36.5%;
+    margin-top: -8%;
+}
+
+/* #checkboxpedido{
+    margin-left: 60%;
+    margin-top: 14.55%;
+    width: 15px;
+    height: 15px;
+} */
+
+

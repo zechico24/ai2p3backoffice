@@ -1,0 +1,121 @@
+#root{
+    font-family: 'Roboto', sans-serif;
+  } 
+  
+#quadrado-amarelo{
+    position: absolute;
+    top: 141px;
+    left: 355px;
+}
+
+.quadrado-amarelo{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    white-space:nowrap;
+    margin-left: 10%;
+    
+}
+
+.quadrado-vermelho{
+    display: flex;
+    align-items: center;
+    padding: 0%;
+    white-space:nowrap;
+    margin-left: 110%;
+    margin-top: -20%;
+
+}
+
+.quadrado-laranja{
+    display: flex;
+    align-items: center;
+    white-space:nowrap;
+    margin-left: 210%;
+    margin-top: -20%;
+}
+
+
+.quadrado-azul{
+    display: flex;
+    padding: 20%;
+    align-items: center;
+    white-space:nowrap;
+    padding-left: 48%;
+    margin-left: -40%;
+}
+
+
+.quadrado-amarelo-claro{
+    display: flex;
+    align-items: center;
+    white-space:nowrap;
+    margin-left: 110%;
+
+}
+
+.quadrado-roxo{
+    display: flex;
+    align-items: center;
+    white-space:nowrap;
+    margin-left: 210%;
+    
+}
+
+.quadrados{
+        display: grid;
+        grid-template-columns: repeat(3, 3fr);
+        gap: 10%;
+        object-fit: contain;
+        object-position: center;
+        margin-left: 22%;
+        margin-top: 5%;
+        color: white;
+        width: 70px;
+}
+ 
+
+.texto-quadrado-amarelo{
+    bottom: 46%;
+    position: absolute;
+    left: 26.5%;
+}
+
+.texto-quadrado-vermelho{
+    position: absolute;
+    bottom: 46%;
+    left: 55.5%;
+}
+
+.texto-quadrado-laranja{
+    position: absolute;
+    bottom: 46%;
+    left: 84%;
+}
+
+.texto-quadrado-azul{
+    position: absolute;
+    bottom: 8%;
+    left: 26.5%;
+}
+
+.texto-quadrado-amarelo-claro{
+    position: absolute;
+    bottom: 8%;
+    left: 55%;
+}
+
+.texto-quadrado-roxo{
+    position: absolute;
+    bottom: 8%;
+    left: 83.5%;
+}
+
+body{
+    font-family: 'shapiritmedium';
+}
+
+
+
+
+

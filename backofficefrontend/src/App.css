@@ -1,0 +1,173 @@
+/* #root{
+  font-family: 'Roboto', sans-serif;
+}  
+
+
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+  color: white;
+}
+
+.sidebar-logo{
+  width: 250px;
+  height: 120px;
+  background-color: #222330;
+}
+
+.sidebar-logo img{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.sidebar{
+  width: 250px;
+  height: 900px;
+  background-color: #2A2B36;
+  opacity: 0.8;
+  border-right: #2A2B36 solid;
+}
+
+.sidebar img{
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.side-bar-icons{
+  margin-right: 50px;
+}
+
+
+body{
+  background-color: #2A2B36;
+  
+}
+
+
+.nav flex-column{
+  margin-top: 220%;
+}
+
+.nav-link-gestao{
+  margin-right: 55%;
+  position: relative;
+  top: 150%;
+}
+
+.nav-link{
+  text-decoration: none;
+  color: white;
+  text-align: left;
+  margin-left: 45px;
+  padding-left: 35px;
+  padding-bottom: 10px;
+  position: relative;
+  top: -30px;
+}
+
+.nav-item img{
+  margin-right: 55%;
+  margin-top: 30%; 
+  
+}
+
+
+.dashboard-txt{
+  position: relative;
+  top: 30%;
+}
+
+.search-container{
+  margin-top: -65%;
+  margin-left: 20%;
+  
+}
+
+.placeholder-procurar{
+  width: 240px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #494A52;
+  color: white;
+  border-color: rgba(111,111,111,0);
+  padding-left: 40px;
+}
+
+
+.btn-procurar{
+  background-color: #727CF5;
+  border-radius: 4px;
+  color: white;
+  width: 90px;
+  height: 40px;
+  border-color: rgba(111,111,111,0);
+  margin-left: -4px;
+}
+
+.search-container img{
+  width: 18px;
+  height: 18px;
+  margin-top: -67px;
+  margin-left: 10px;
+}
+
+.menu-parallel{
+  width: 20px;
+  height: 20px;
+  margin-left: 20%;
+  margin-top: -58px;  
+}
+
+.notification .badge {
+  position: absolute;
+  top: 20px;
+  right: 260px;
+  padding: 5px 8px;
+  border-radius: 50%;
+  background-color: #C75757;
+  color: white;
+}
+
+.notification img{ 
+  width: 26px;
+  height: 26px;
+  margin-left: 80%;
+  margin-top: -115px;
+}
+
+.profile img{
+  width: 40px;
+  height: 40px;
+  margin-left: 86%;
+  margin-top: -165px;
+}
+
+.profile-text{
+  margin-left: 90%;
+  margin-top: -7.5%;
+  color: white;
+}
+
+.dashboard-cima{
+  width: 260px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  right: -33%;
+  top: 55%;
+  padding-left: 20px;
+}
+
+.dashboard-baixo{
+  width: 200px;
+  position: relative;
+  top: 180%;
+  right: 11%;
+  padding-left: 20px;
+
+} */

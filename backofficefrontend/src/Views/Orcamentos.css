@@ -1,0 +1,53 @@
+#root{
+    font-family: 'Roboto', sans-serif;
+  } 
+  
+
+
+.titulo-pagina{
+    margin-left: 20%;
+    color: white;
+    font-weight: bold;
+}
+
+table{  
+    margin-top: 5%;
+    width: 800px !important;
+    margin-left: 30%;
+    text-align: center;
+}
+
+td{
+    height: 50px;
+    background-color: white;
+    text-align: center;
+}
+
+
+.pagination{
+    margin-left: 50%;
+    margin-top: 2%;
+    color: white;
+    background-color: #2A2B36;
+}
+
+.page-item{
+    background-color: #2A2B36;
+}
+
+.page-link{
+    background-color: #2A2B36;
+    color: white;
+    border: none;
+    
+}
+
+.page-link:hover{
+    background-color: #4D565F;
+    color: white;
+}
+
+.page-link:active{
+    background-color: #4D565F;
+    color: none !important;
+}

@@ -1,0 +1,102 @@
+.ticket-user-message{
+    margin-left: 25.9%;
+    position: absolute;
+    top: 50%;
+}
+
+
+c{
+    font-weight: 200;
+    margin-left: 20%;
+    color: white;  
+    
+}
+
+.Ticket-Usuario{
+    position: absolute;
+    top: 39.5%;
+    left: 6%;
+}
+
+#txt-area-tickets2{
+    height: 200px;
+}
+
+
+
+.btn-atualizar-tickets{
+    background-color: #1C7CD5;
+    border: none;
+    color: white;
+    padding: 0px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 68.5%;
+    border-radius: 5px;
+    position: absolute;
+    left: 9%;
+    top: 71.3%;
+    width: 120px;  
+    height: 40px;
+}
+
+.btn-atualizar-tickets:hover {
+    background: rgba(28, 124, 213, 0.8);
+}
+
+
+.btn-cancelar-tickets:hover {
+    background: rgba(108, 117, 125, 0.8);
+}
+
+.btn-cancelar-tickets{
+    background-color: #6C757D;
+    border: none;
+    color: white;
+    padding: 0px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 58%;
+    margin-top: 8%;
+    border-radius: 5px;
+    width: 120px;  
+    height: 40px;
+    position: absolute;
+    left: 10%;
+    top: 55.1%;
+}
+
+#checkbox{
+    margin-left: 25%;
+    position: absolute;
+    top: 68%;
+    left: 100px;
+}
+
+.info-ticket{
+    margin-top: -2%;
+    margin-left: 5%;
+}
+
+.dados1-tickets2{
+    margin-left: -20%;
+    margin-top: 3%;
+}
+
+.dados2-tickets2{
+    margin-left: -40%;
+    margin-top: -6.5%;
+    font-weight: lighter;
+}
+
+#checkbox-tickets2{
+    margin-left: 44%;
+}
