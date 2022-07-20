@@ -11,7 +11,7 @@ import Moment from 'moment';
 
 
 function PopupEditPacote() {
-  const baseUrl = 'http://localhost:3000/'
+  const baseUrl = 'https://ai2p3backend.herokuapp.com/'
   const { idorcamento } = useParams()
   
   const formatDate = Moment().format("MMM Do YY");
@@ -21,7 +21,7 @@ function PopupEditPacote() {
   const SendSave =e=> {
     e.preventDefault ();
     console.log("hhhh");
-      const baseUrl = "http://localhost:3000/vendas/create";
+      const baseUrl = "https://ai2p3backend.herokuapp.com/vendas/create";
       const datapost = {
         valor_final: campPreco,
         metodo_pagamento: campPagamento,

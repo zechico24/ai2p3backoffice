@@ -11,7 +11,7 @@ function Pacotes() {
     
   const [dataPacotes, setdataPacotes] = useState([]);
   useEffect(() => {
-    const url = "http://localhost:3000/pacotes/list";
+    const url = "https://ai2p3backend.herokuapp.com/pacotes/list";
     axios
       .get(url)
       .then((res) => {

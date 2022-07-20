@@ -17,7 +17,7 @@ function Login() {
     var bool = false;
 
   useEffect(() => {
-    const url = "http://localhost:3000/contas/list";
+    const url = "https://ai2p3backend.herokuapp.com/contas/list";
     axios
       .get(url)
       .then((res) => {

@@ -12,7 +12,7 @@ function Pedidos() {
 
   const [dataPedidos, setdataPedidos] = useState([]);
   useEffect(() => {
-    const url = "http://localhost:3000/pedidos/list";
+    const url = "https://ai2p3backend.herokuapp.com/pedidos/list";
     axios
       .get(url)
       .then((res) => {

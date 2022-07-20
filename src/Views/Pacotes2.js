@@ -8,7 +8,7 @@ import { useParams, } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import Popup from './Componentes/Popup'
 
-const baseUrl = 'http://localhost:3000/'
+const baseUrl = 'https://ai2p3backend.herokuapp.com/'
 
 function Pacotes2() {
   const [buttonPopup, setButtonPopup] = useState(false)
@@ -16,7 +16,7 @@ function Pacotes2() {
   
   const [dataCategoria, setdataCategoria] = useState([]);
   useEffect(() => {
-    const url = "http://localhost:3000/categoria/listwithcategory/"+ idpacote;
+    const url = "https://ai2p3backend.herokuapp.com/categoria/listwithcategory/"+ idpacote;
     axios
       .get(url)
       .then((res) => {
@@ -34,7 +34,7 @@ function Pacotes2() {
 
   const [dataListaInfo1, setdataListaInfo1] = useState([]);
   useEffect(() => {
-    const url = "http://localhost:3000/infoPacote/list";
+    const url = "https://ai2p3backend.herokuapp.com/infoPacote/list";
     axios
       .get(url)
       .then((res) => {

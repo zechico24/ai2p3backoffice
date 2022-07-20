@@ -7,7 +7,7 @@ import axios from 'axios';
 import { useParams, Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
-const baseUrl = 'http://localhost:3000/'
+const baseUrl = 'https://ai2p3backend.herokuapp.com/'
 
 function Tickets2() {
 

@@ -16,7 +16,7 @@ function Vendas() {
  
 
   useEffect(() => {
-    const url = "http://localhost:3000/vendas/list";
+    const url = "https://ai2p3backend.herokuapp.com/vendas/list";
     axios
       .get(url)
       .then((res) => {

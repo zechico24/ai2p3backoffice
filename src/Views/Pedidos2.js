@@ -19,7 +19,7 @@ function Pedidos2() {
   const [campPreco, setcampPreco] = useState("");
   const [campPacote, setcampPacote] = useState("");
   useEffect(() => {
-    const url = "http://localhost:3000/pedidos/get/"+ idpedido;
+    const url = "https://ai2p3backend.herokuapp.com/pedidos/get/"+ idpedido;
     axios
       .get(url)
       .then((res) => {
@@ -40,7 +40,7 @@ function Pedidos2() {
 
   const [dataCategoria, setdataCategoria] = useState([]);
   useEffect(() => {
-    const url = "http://localhost:3000/categoria/listwithcategory/"+ campPacote * 1;
+    const url = "https://ai2p3backend.herokuapp.com/categoria/listwithcategory/"+ campPacote * 1;
     axios
       .get(url)
       .then((res) => {
@@ -60,7 +60,7 @@ function Pedidos2() {
  const [dataPreco, setdataPreco] = useState([]);
 
   useEffect(() => {
-    const url = "http://localhost:3000/infoPacote/list/";
+    const url = "https://ai2p3backend.herokuapp.com/infoPacote/list/";
     axios
       .get(url)
     .then((res) => {
@@ -85,7 +85,7 @@ function Pedidos2() {
   const [nomePacote, setnomePacote] = useState("");
 
    useEffect(() => {
-     const url = "http://localhost:3000/pacotes/get/"+ campPacote * 1;
+     const url = "https://ai2p3backend.herokuapp.com/pacotes/get/"+ campPacote * 1;
      axios
        .get(url)
      .then((res) => {

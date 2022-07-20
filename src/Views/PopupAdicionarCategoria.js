@@ -11,7 +11,7 @@ import NavBar from './Componentes/Nav'
 
 
 function PopupAdicionarCategoria() {
-  const baseUrl = 'http://localhost:3000/'
+  const baseUrl = 'https://ai2p3backend.herokuapp.com/'
   const { idorcamento } = useParams()
   
 
@@ -24,7 +24,7 @@ function PopupAdicionarCategoria() {
     console.log(campNome)
     console.log(campCategoria)
     e.preventDefault ();
-      const baseUrl = "http://localhost:3000/infoPacote/create";
+      const baseUrl = "https://ai2p3backend.herokuapp.com/infoPacote/create";
       const datapost = {
         nomeDetalhe: campNome,
         preco: campPreco,

@@ -11,7 +11,7 @@ function Orcamento() {
 
   const [dataOrcamentos, setdataOrcamentos] = useState([]);
   useEffect(() => {
-    const url = "http://localhost:3000/orcamentos/list";
+    const url = "https://ai2p3backend.herokuapp.com/orcamentos/list";
     axios
       .get(url)
       .then((res) => {

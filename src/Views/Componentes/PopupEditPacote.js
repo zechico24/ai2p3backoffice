@@ -6,7 +6,7 @@ import axios from 'axios'
 import { useParams } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import NavBar from './Nav'
-const baseUrl = 'http://localhost:3000/'
+const baseUrl = 'https://ai2p3backend.herokuapp.com/'
 
 
 

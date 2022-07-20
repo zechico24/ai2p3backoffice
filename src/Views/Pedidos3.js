@@ -20,7 +20,7 @@ function Pedidos3() {
     const [dataPedido, setdataPedido] = useState([]);
     const [campNome, setcampNome] = useState("");
     useEffect(() => {
-      const url = "http://localhost:3000/pedidos/get/"+ idpedido;
+      const url = "https://ai2p3backend.herokuapp.com/pedidos/get/"+ idpedido;
       axios
         .get(url)
         .then((res) => {
@@ -52,7 +52,7 @@ function Pedidos3() {
         } else if (campMensagem === "") {
           alert("Insira uma Mensagem!");
         } else {
-          const baseUrl = "http://localhost:3000/orcamentos/create";
+          const baseUrl = "https://ai2p3backend.herokuapp.com/orcamentos/create";
           const datapost = {
             valor: campValor,
             desconto: campDesconto,

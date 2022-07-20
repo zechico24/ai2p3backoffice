@@ -11,7 +11,7 @@ function NavBar() {
     const [dataContas, setdataContas] = useState([]);
     const [campNome, setcampNome] = useState("");
     useEffect(() => {
-      const url = "http://localhost:3000/contas/get/1";
+      const url = "https://ai2p3backend.herokuapp.com/contas/get/1";
       axios
         .get(url)
         .then((res) => {
