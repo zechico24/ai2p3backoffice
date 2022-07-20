@@ -8,7 +8,7 @@ import { useEffect, useState } from "react";
 import React from 'react';
 
 
-function ticketsAtualizado() {
+function TicketsAtualizado() {
 
   const [dataTickets, setdataTickets] = useState([]);
   useEffect(() => {
@@ -94,4 +94,4 @@ function LoadFillData() {
 
 
 
-export default ticketsAtualizado;
+export default TicketsAtualizado;
