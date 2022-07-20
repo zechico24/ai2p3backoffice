@@ -17,7 +17,7 @@ function Tickets2() {
           console.log('✅ Checkbox is checked');
         } else {
           console.log('⛔️ Checkbox is NOT checked');
-        }
+        } 
         setIsSubscribed(current => !current);
       };
 
