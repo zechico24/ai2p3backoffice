@@ -106,7 +106,7 @@ function offDate(){
     // url de backend
     const url = baseUrl + 'tickets/update/' + idticket
     const datapost = {
-        respondido: true
+        respondido: false
     }
     axios.post(url,datapost)
     .then(response=>{
@@ -125,7 +125,7 @@ function sendUpdate(){
     // url de backend
     const url = baseUrl + 'tickets/update/' + idticket
     const datapost = {
-        respondido: false
+        respondido: true
     }
     axios.post(url,datapost)
     .then(response=>{
