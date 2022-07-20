@@ -21,7 +21,7 @@ import Orcamentos2 from "./Views/Orcamentos2";
 import Pacotes from "./Views/Pacotes";
 import Pacotes2 from "./Views/Pacotes2";
 import PopupEditPacote from "./Views/Componentes/PopupEditPacote";
-import TicketsAtualizado from "./Views/TicketsAtualizado";
+import TicketsAtualizado from "./Views/ticketsAtualizado";
 import PopupGerarFatura from "./Views/PopupGerarFatura";
 import PopupAdicionarCategoria from "./Views/PopupAdicionarCategoria";
 
