@@ -52,9 +52,9 @@ function PopupEditPacote() {
           <h4 id="popup-gerar-fatura-mp">Método Pagamento: </h4>
           <input
             id="input-gerar-fatura-preco"
-            value = {campPreco}	
+            value = {campPagamento}	
              onChange={(value)=>
-                setcampPreco(value.target.value)}
+                setcampPagamento(value.target.value)}
             type="text"
             placeholder="Nome"
             name="email"
@@ -62,9 +62,9 @@ function PopupEditPacote() {
           ></input>
           <input
             id="input-gerar-fatura-nome-mp"
-            value = {campPagamento}
+            value = {campPreco}
             onChange={(value)=>
-                setcampPagamento(value.target.value)}
+              setcampPreco(value.target.value)}
             type="text"
             placeholder="Preço"
             name="email"

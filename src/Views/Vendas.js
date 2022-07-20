@@ -79,6 +79,7 @@ return (<div>
 
 function LoadFillData() {
   return dataVendas.map((data, index) => {
+    console.log(data.metodo_pagamento);
     return (
       <tr key={index}>
         <th>{data.idvenda}</th>
