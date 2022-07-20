@@ -82,10 +82,10 @@ function LoadFillData() {
     return (
       <tr key={index}>
         <th>{data.idvenda}</th>
-        <td>{data.valor_final}</td>
+        <th>{data.valor_final}</th>
         <th>{data.metodo_pagamento}</th>
         <th>{data.idorcamento}</th>
-        <td>{data.data_compra}</td>
+        <th>{data.data_compra}</th>
       </tr>
     );
   });
