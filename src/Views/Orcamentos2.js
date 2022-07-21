@@ -19,7 +19,6 @@ function Orcamentos2() {
   const [campDesconto, setcampDesconto] = useState("");
   const [campIdPedido, setcampIdPedido] = useState("");
   const [dataPedido, setdataPedido] = useState("");
- 
 
   useEffect(() => {
     const url = baseUrl+"orcamentos/get/" + idorcamento;

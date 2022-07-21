@@ -20,7 +20,7 @@ function PopupEditPacote() {
 
   const SendSave =e=> {
     e.preventDefault ();
-    console.log("hhhh");
+    console.log(campPreco);
       const baseUrl = "https://ai2p3backend.herokuapp.com/vendas/create";
       const datapost = {
         valor_final: campPreco,
