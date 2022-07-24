@@ -129,7 +129,7 @@ function Pacotes2() {
         </div>
 
         <div class="pacotes2-bd-nome-valor-container">
-          <h5 id="dados2-pedido">{campNome}</h5>
+          <h5 id="dados2-pacote2">{campNome}</h5>
         </div>
         
         {renderCategoria}
