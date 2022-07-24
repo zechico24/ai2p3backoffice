@@ -79,7 +79,7 @@ return (<div>
     <p class = "Ticket-Usuario">Ticket</p>
     <div class = "ticket-user-message">
         <label for="txt-area-tickets2"></label>
-            <textarea value = "{campMensagem}" id="txt-area-tickets2" name="ticket-message" rows="4" cols="50">
+            <textarea value = {campMensagem} id="txt-area-tickets2" name="ticket-message" rows="4" cols="50">
                 
             </textarea>
     </div>
