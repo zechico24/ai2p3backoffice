@@ -10,7 +10,9 @@ import Popup from './Componentes/Popup'
 
 const baseUrl = 'https://ai2p3backend.herokuapp.com/'
 
+
 function Pacotes2() {
+
   const [buttonPopup, setButtonPopup] = useState(false)
   const {idpacote} = useParams();
   
@@ -129,7 +131,6 @@ function Pacotes2() {
 
         <div class="pacotes2-bd-nome-valor-container">
           <h5 id="dados2-pedido">{campNome}</h5>
-          <h5 id="dados2-pedido">20.99€</h5>
         </div>
         
         {renderCategoria}
