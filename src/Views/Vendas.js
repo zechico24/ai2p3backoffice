@@ -42,8 +42,8 @@ return (<div>
   <thead>
     <tr>
       <th scope="col">ID Venda</th>
-      <th scope="col">Valor Final</th>
       <th scope="col">Método de Pagamento</th>
+      <th scope="col">Valor Final</th>
       <th scope="col">ID Orçamento</th>
       <th scope="col">Data</th>
     </tr>
@@ -83,8 +83,8 @@ function LoadFillData() {
     return (
       <tr key={index}>
         <th>{data.idvenda}</th>
-        <td>{data.valor_final}</td>
         <td>{data.metodo_pagamento}</td>
+        <td>{data.valor_final}</td>
         <td>{data.idorcamento}</td>
         <td>{data.data_compra}</td>
       </tr>
