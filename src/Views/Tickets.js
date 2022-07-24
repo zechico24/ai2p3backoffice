@@ -11,7 +11,7 @@ function Tickets() {
 
   const [dataTickets, setdataTickets] = useState([]);
   useEffect(() => {
-    const url = "https://ai2p3backend.herokuapp.com/tickets/listatualizado";
+    const url = "https://ai2p3backend.herokuapp.com/tickets/list";
     axios
       .get(url)
       .then((res) => {
