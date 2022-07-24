@@ -87,7 +87,7 @@ function sendUpdate(){
         }
       })
       if(bool === false){
-        alert("Password errada!");
+        alert("Password certa!");
       }
       renderCategoria()
     }
