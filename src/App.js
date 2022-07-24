@@ -21,7 +21,6 @@ import Orcamentos2 from "./Views/Orcamentos2";
 import Pacotes from "./Views/Pacotes";
 import Pacotes2 from "./Views/Pacotes2";
 import PopupEditPacote from "./Views/Componentes/PopupEditPacote";
-import TicketsAtualizado from "./Views/ticketsAtualizado";
 import PopupGerarFatura from "./Views/PopupGerarFatura";
 import PopupAdicionarCategoria from "./Views/PopupAdicionarCategoria";
 
@@ -41,7 +40,6 @@ function App() {
         <Route exact path="/definicoesconta/:idconta" element={<DefinicoesConta />} />
         <Route exact path="/tickets" element={<Tickets />} />
         <Route exact path="/tickets2/:idticket" element={<Tickets2 />} />
-        <Route exact path="/ticketsatualizado" element={<TicketsAtualizado />} />
         <Route exact path="/recuperarpassword" element={<RecuperarPassword />} />
         <Route exact path="/pedidos2/:idpedido" element={<Pedidos2 />} />
         <Route exact path="/pedidos3/:idpedido" element={<Pedidos3 />} />
