@@ -23,8 +23,8 @@ function PopupEditPacote() {
     console.log(campPreco);
       const baseUrl = "https://ai2p3backend.herokuapp.com/vendas/create";
       const datapost = {
-        valor_final: campPreco,
-        metodo_pagamento: campPagamento,
+        valor_final: campPagamento,
+        metodo_pagamento: campPreco,
         data_compra: formatDate,
         idorcamento: idorcamento
       };
