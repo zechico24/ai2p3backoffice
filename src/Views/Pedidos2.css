@@ -28,12 +28,12 @@ body{
 
 .dados1-pedidos2{
     margin-top: 50px;
-    margin-left: 30px;
+    margin-left: 25px;
 }
 
 .dados2-pedidos2{
     margin-top: -127px;
-    margin-left: -20px;
+    margin-left: -15px;
 }
 
 
@@ -48,7 +48,7 @@ body{
     height: 200px;
     position: relative;
     left: 40%;
-    top: 15%;
+    top: 25%;
 }
 
 /* #checkboxpedido{
