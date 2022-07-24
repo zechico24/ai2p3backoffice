@@ -40,7 +40,7 @@ body{
 
 #btn-gerar-orcamento{
     width: 9.5%;
-    margin-left: 36.5%;
+    margin-left: 38.5%;
     margin-top: 4%;
 }
 
@@ -48,6 +48,7 @@ body{
     height: 200px;
     position: relative;
     left: 40%;
+    top: 15%;
 }
 
 /* #checkboxpedido{
