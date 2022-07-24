@@ -83,8 +83,8 @@ function LoadFillData() {
     return (
       <tr key={index}>
         <th>{data.idvenda}</th>
-        <td>{data.valor_final}</td>
-        <td>{data.metodo_pagamento}</td>
+        <td>999999</td>
+        <td>paypal</td>
         <td>{data.idorcamento}</td>
         <td>{data.data_compra}</td>
       </tr>
