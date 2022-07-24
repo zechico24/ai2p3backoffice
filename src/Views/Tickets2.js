@@ -11,17 +11,6 @@ const baseUrl = 'https://ai2p3backend.herokuapp.com/'
 
 function Tickets2() {
 
-    const [isSubscribed, setIsSubscribed] = useState(false);
-    const handleChange = event => {
-        if (event.target.checked) {
-            setIsSubscribed(true);
-          console.log('✅ Checkbox is checked');
-        } else {
-            setIsSubscribed(false);
-          console.log('⛔️ Checkbox is NOT checked');
-        } 
-      };
-
     const [dataTickets, setdataTickets] = useState("");
     const [campNome, setcampNome] = useState("");
     const [campMensagem, setcampMensagem] = useState("");
@@ -64,16 +53,12 @@ return (<div>
         <div class = "dados1-tickets2">
             <h5 id = "dados1-pedido">Referência</h5>
             <h5 id = "dados1-pedido">Nome de usuário</h5>
-            <h5 id = "dados1-pedido">Respondido?</h5>
         </div>
 
         <div class = "dados2-tickets2">
             <h5 id = "dados2-pedido">#{idticket}</h5>
             <h5 id = "dados2-pedido">{campNome}</h5>
         </div>
-
-        <input type="checkbox" id="checkbox-tickets2" name="vehicle1" value={isSubscribed}
-          onChange={handleChange}></input>
 
         </div>
     
@@ -84,64 +69,10 @@ return (<div>
                 
             </textarea>
     </div>
-
-        <Link to ="/tickets">
-            <button class="btn-cancelar-tickets">Cancelar</button>
-        </Link>
-
-            <a href = "/ticketsatualizado"><button onClick={check} class="btn-atualizar-tickets">Atualizar</button></a>
-        
         
 
 </div>
 );
-
-function check(){
-    if(isSubscribed){
-        sendUpdate();
-    }
-    else{
-        offDate();
-    }
-}
-
-function offDate(){
-    // url de backend
-    const url = baseUrl + 'tickets/update/' + idticket
-    const datapost = {
-        respondido: false
-    }
-    axios.post(url,datapost)
-    .then(response=>{
-    if (response.data.success===true) {
-    alert(response.data.message)
-    }
-    else {
-    alert("Error")
-    }
-    }).catch(error=>{
-    alert("Error 34 "+error)
-    })
-    }
-
-function sendUpdate(){
-    // url de backend
-    const url = baseUrl + 'tickets/update/' + idticket
-    const datapost = {
-        respondido: true
-    }
-    axios.post(url,datapost)
-    .then(response=>{
-    if (response.data.success===true) {
-    alert(response.data.message)
-    }
-    else {
-    alert("Error")
-    }
-    }).catch(error=>{
-    alert("Error 34 "+error)
-    })
-    }
 
 }
 
