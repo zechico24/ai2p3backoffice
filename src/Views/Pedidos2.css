@@ -41,14 +41,14 @@ body{
 #btn-gerar-orcamento{
     width: 9.5%;
     margin-left: 38.5%;
-    margin-top: 4%;
+    margin-top: 5%;
 }
 
 #txt-area-pedidos2{
     height: 200px;
     position: relative;
     left: 40%;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 /* #checkboxpedido{
