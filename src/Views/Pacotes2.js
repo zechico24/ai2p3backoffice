@@ -86,7 +86,7 @@ function Pacotes2() {
               
           <thead>
             <tr>
-              <th scope="col">{data.nome}</th>
+              <th scope="col">{data.nome} - {data.idcategoria} </th>
               <th scope="col">Valor</th>
               <th></th>
           
