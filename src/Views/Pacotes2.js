@@ -89,6 +89,7 @@ function Pacotes2() {
           <thead>
             <tr>
               <th scope="col">{data.nome} - {data.idcategoria} </th>
+              <th>Valor</th>
               <th></th>
           
             </tr>
@@ -125,7 +126,6 @@ function Pacotes2() {
 
         <div class="pacotes2-nome-valor-container">
           <h5 id="dados1-pedido">Nome do pacote</h5>
-          <h5 id="dados1-pedido">Valor</h5>
         </div>
 
         <div class="pacotes2-bd-nome-valor-container">
