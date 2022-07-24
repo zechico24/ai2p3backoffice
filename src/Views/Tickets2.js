@@ -64,7 +64,6 @@ return (<div>
         <div class = "dados1-tickets2">
             <h5 id = "dados1-pedido">Referência</h5>
             <h5 id = "dados1-pedido">Nome de usuário</h5>
-            <h5 id = "dados1-pedido">Respondido?</h5>
         </div>
 
         <div class = "dados2-tickets2">
@@ -85,11 +84,9 @@ return (<div>
             </textarea>
     </div>
 
-        <Link to ="/tickets">
-            <button class="btn-cancelar-tickets">Cancelar</button>
-        </Link>
 
-            <a href = "/ticketsatualizado"><button onClick={check} class="btn-atualizar-tickets">Atualizar</button></a>
+
+        
         
         
 
