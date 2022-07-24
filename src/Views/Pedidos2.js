@@ -18,6 +18,7 @@ function Pedidos2() {
   const [campNome, setcampNome] = useState("");
   const [campPreco, setcampPreco] = useState("");
   const [campPacote, setcampPacote] = useState("");
+  const [campMensagem, setcampMensagem] = useState("");
   useEffect(() => {
     const url = "https://ai2p3backend.herokuapp.com/pedidos/get/"+ idpedido;
     axios
@@ -132,6 +133,10 @@ return (<div>
             <h5 id = "dados2-pedido">{nomePacote}</h5>
             <h5 id = "dados2-pedido">{precoFinal}€</h5>
         </div>
+
+        <textarea value = {campMensagem} id="txt-area-tickets2" name="ticket-message" rows="4" cols="50">
+      
+        </textarea>
     
         
 
