@@ -93,53 +93,6 @@ return (<div>
 </div>
 );
 
-function check(){
-    if(isSubscribed){
-        sendUpdate();
-    }
-    else{
-        offDate();
-    }
-}
-
-function offDate(){
-    // url de backend
-    const url = baseUrl + 'tickets/update/' + idticket
-    const datapost = {
-        respondido: false
-    }
-    axios.post(url,datapost)
-    .then(response=>{
-    if (response.data.success===true) {
-    alert(response.data.message)
-    }
-    else {
-    alert("Error")
-    }
-    }).catch(error=>{
-    alert("Error 34 "+error)
-    })
-    }
-
-function sendUpdate(){
-    // url de backend
-    const url = baseUrl + 'tickets/update/' + idticket
-    const datapost = {
-        respondido: true
-    }
-    axios.post(url,datapost)
-    .then(response=>{
-    if (response.data.success===true) {
-    alert(response.data.message)
-    }
-    else {
-    alert("Error")
-    }
-    }).catch(error=>{
-    alert("Error 34 "+error)
-    })
-    }
-
 }
 
 
