@@ -48,7 +48,7 @@ body{
     height: 200px;
     position: relative;
     left: 40%;
-    top: 25%;
+    margin-top: 5%;
 }
 
 /* #checkboxpedido{
