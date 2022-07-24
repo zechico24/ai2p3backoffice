@@ -30,7 +30,6 @@ function Tickets() {
   
 return (<div>
     <NavBar/>
-    <a href = {"/ticketsatualizado/"}><h5 id = "historico-ticket">Histórico</h5></a>
     <table class="table table-hover table-dark">
     <thead>
     <tr>
