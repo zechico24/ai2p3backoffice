@@ -14,11 +14,12 @@ function Tickets2() {
     const [isSubscribed, setIsSubscribed] = useState(false);
     const handleChange = event => {
         if (event.target.checked) {
+            setIsSubscribed(true);
           console.log('✅ Checkbox is checked');
         } else {
+            setIsSubscribed(false);
           console.log('⛔️ Checkbox is NOT checked');
         } 
-        setIsSubscribed(current => !current);
       };
 
     const [dataTickets, setdataTickets] = useState("");
