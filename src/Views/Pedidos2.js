@@ -30,6 +30,7 @@ function Pedidos2() {
           setcampEmail(data.email);
           setcampNome(data.nome);
           setcampPacote(data.idpacote);
+          setcampMensagem(data.comentario);
         } else {
           alert("Error Web Service!");
         }
