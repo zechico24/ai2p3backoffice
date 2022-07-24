@@ -135,7 +135,7 @@ return (<div>
             <h5 id = "dados2-pedido">{precoFinal}€</h5>
         </div>
 
-        <textarea value = {campMensagem} id="txt-area-tickets2" name="ticket-message" rows="4" cols="50">
+        <textarea value = {campMensagem} id="txt-area-pedidos2" name="ticket-message" rows="4" cols="50">
       
         </textarea>
     

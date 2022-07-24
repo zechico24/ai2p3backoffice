@@ -44,6 +44,12 @@ body{
     margin-top: -8%;
 }
 
+#txt-area-pedidos2{
+    height: 200px;
+    position: relative;
+    left: 20%;
+}
+
 /* #checkboxpedido{
     margin-left: 60%;
     margin-top: 14.55%;
