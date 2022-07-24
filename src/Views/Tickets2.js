@@ -23,6 +23,7 @@ function Tickets2() {
 
     const [dataTickets, setdataTickets] = useState("");
     const [campNome, setcampNome] = useState("");
+    const [campMensagem, setcampMensagem] = useState("");
     
     const {idticket} = useParams();
 
@@ -34,6 +35,7 @@ function Tickets2() {
       const data = res.data.data[0];
       setdataTickets(data);
       setcampNome(data.nome);
+      setcampMensagem(data.mensagem);
       }
       else {
       alert("Error web service")
@@ -77,8 +79,8 @@ return (<div>
     <p class = "Ticket-Usuario">Ticket</p>
     <div class = "ticket-user-message">
         <label for="txt-area-tickets2"></label>
-            <textarea id="txt-area-tickets2" name="ticket-message" rows="4" cols="50">
-                Lorem ipsum
+            <textarea value = "{campMensagem}" id="txt-area-tickets2" name="ticket-message" rows="4" cols="50">
+                
             </textarea>
     </div>
 
