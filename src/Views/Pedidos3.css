@@ -35,11 +35,7 @@
     width: 50px;
 }
 
-#btn-gerar-orcamento-pedidos3{
-    margin-left: 39%;
-    width: 9.5%;
-    margin-top: -6%;
-}
+
 
 #input-valor{
     background-color: #2A2B36;
@@ -66,4 +62,10 @@
     position: absolute;
     top: 31%;
     left: 46%;
+}
+
+#btn-gerar-orcamento-pedidos33{
+    margin-left: 39%;
+    width: 9.5%;
+    margin-top: -6%;
 }

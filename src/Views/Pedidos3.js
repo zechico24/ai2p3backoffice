@@ -111,7 +111,7 @@ return (<div>
 
         
 
-        <button onClick ={SendSave} id = "btn-gerar-orcamento" class="button-atualizar">Gerar orçamento</button>
+        <button onClick ={SendSave} id = "btn-gerar-orcamento-pedidos33" class="button-atualizar">Gerar orçamento</button>
     </div>
 </div>
 );
