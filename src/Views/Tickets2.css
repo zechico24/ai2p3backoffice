@@ -15,7 +15,7 @@ c{
 .Ticket-Usuario{
     position: absolute;
     top: 39.5%;
-    left: 35%;
+    left: 15%;
 }
 
 #txt-area-tickets2{
@@ -94,8 +94,8 @@ c{
 }
 
 .dados2-tickets2{
-    margin-left: -40%;
-    margin-top: -5%;
+    margin-left: -10%;
+    margin-top: -7%;
     font-weight: lighter;
 }
 
