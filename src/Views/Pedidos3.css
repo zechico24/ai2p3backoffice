@@ -72,10 +72,12 @@
 
 #percentagem{
     position: relative;
-    left: 35%;
+    left: 65%;
+    top: 4%;
 }
 
 #euro{
     position: relative;
-    left: 35%;
+    left: 65%;
+    top: 20%;
 }
