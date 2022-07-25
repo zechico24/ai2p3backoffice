@@ -21,7 +21,7 @@ c{
 #txt-area-tickets2{
     height: 200px;
     position: relative;
-    left: 40%;
+    left: 20%;
 }
 
 
@@ -89,13 +89,13 @@ c{
 }
 
 .dados1-tickets2{
-    margin-left: -30%;
+    margin-left: -60%;
     margin-top: 5%;
 }
 
 .dados2-tickets2{
     margin-left: -50%;
-    margin-top: 5%;
+    margin-top: -2%;
     font-weight: lighter;
 }
 
