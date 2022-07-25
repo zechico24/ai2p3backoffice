@@ -95,11 +95,11 @@ return (<div>
             <h5 id = "dados2-pedido3">{campNome}</h5>
             <input value = {campValor} 
             onChange={(value)=>
-                setcampValor(value.target.value)} id ="input-valor" type="" placeholder="" name="" required> €</input>
+                setcampValor(value.target.value)} id ="input-valor" type="" placeholder="" name="" required></input>
         </div>
         <input value = {campDesconto}
             onChange={(value)=>
-                setcampDesconto(value.target.value)} id ="input-desconto" type="" placeholder="" name="" required> %</input>
+                setcampDesconto(value.target.value)} id ="input-desconto" type="" placeholder="" name="" required></input>
 
         <p class = "Comentario-Pedidos3">Comentário</p>
             <div class = "pedidos3-comentario-container">
@@ -107,6 +107,14 @@ return (<div>
                 <textarea value = {campMensagem}
             onChange={(value)=>
                 setcampMensagem(value.target.value)} id="w3review" name="ticket-message" rows="4" cols="50">Mensagem</textarea>
+            </div>
+
+            <div id = "percentagem">
+                %
+            </div>
+
+            <div id = "euro">
+              €
             </div>
 
         

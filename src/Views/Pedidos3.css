@@ -69,3 +69,13 @@
     width: 9.5%;
     margin-top: -6%;
 }
+
+#percentagem{
+    position: relative;
+    left: 35%;
+}
+
+#euro{
+    position: relative;
+    left: 35%;
+}
