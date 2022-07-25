@@ -108,5 +108,9 @@
 #dados2-pacote2{
     position: relative;
     left: 65%;
-    bottom: 10%;
+}
+
+#dados1-pacotes2{
+    position: relative;
+    top: 25%;
 }

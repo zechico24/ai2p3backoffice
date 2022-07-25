@@ -125,7 +125,7 @@ function Pacotes2() {
       <div class="container-pedido">
 
         <div class="pacotes2-nome-valor-container">
-          <h5 id="dados1-pedido">Nome do pacote</h5>
+          <h5 id="dados1-pacotes2">Nome do pacote</h5>
         </div>
 
         <div class="pacotes2-bd-nome-valor-container">
